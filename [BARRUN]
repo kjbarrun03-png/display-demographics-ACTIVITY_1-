@@ -1,0 +1,34 @@
+using System;
+
+namespace DemographicsDisplay
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            
+            int studentID = 23839780;
+            string fullName = "Barrun Kenneth";
+            string nickName = "Johnny";
+            string gender = "Male";
+            int yearLevel = 2;
+            string homeLocation = "Ermita";
+            string course = "Computer Technology";
+            string mobileNo = "123-456-7890";
+            string personalEmail = "kjbarrun03@.com";
+
+            // Step 4: Display the values
+            Console.WriteLine("Student ID: " + studentID);
+            Console.WriteLine("Full Name: " + fullName);
+            Console.WriteLine("Nick Name: " + nickName);
+            Console.WriteLine("Gender: " + gender);
+            Console.WriteLine("Year Level: " + yearLevel);
+            Console.WriteLine("Home Location: " + homeLocation);
+            Console.WriteLine("Course: " + course);
+            Console.WriteLine("Mobile No.: " + mobileNo);
+            Console.WriteLine("Personal Email: " + personalEmail);
+
+            
+        }
+    }
+}
