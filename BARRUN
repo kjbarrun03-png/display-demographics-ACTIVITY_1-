@@ -1,0 +1,36 @@
+using System;
+
+namespace DemographicsDisplay
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // Step 2: Define variables
+            int studentID = 123456;
+            string fullName = "John Doe";
+            string nickName = "Johnny";
+            string gender = "Male";
+            int yearLevel = 2; // Assuming year level is an integer
+            string homeLocation = "New York, NY";
+            string course = "Computer Science";
+            string mobileNo = "123-456-7890";
+            string personalEmail = "john.doe@example.com";
+
+            // Step 4: Display the values
+            Console.WriteLine("Student ID: " + studentID);
+            Console.WriteLine("Full Name: " + fullName);
+            Console.WriteLine("Nick Name: " + nickName);
+            Console.WriteLine("Gender: " + gender);
+            Console.WriteLine("Year Level: " + yearLevel);
+            Console.WriteLine("Home Location: " + homeLocation);
+            Console.WriteLine("Course: " + course);
+            Console.WriteLine("Mobile No.: " + mobileNo);
+            Console.WriteLine("Personal Email: " + personalEmail);
+
+            // Keep the console window open
+            Console.ReadLine();
+        }
+    }
+}
+
